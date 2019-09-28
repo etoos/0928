@@ -4,5 +4,6 @@ import os
 
 for input_file in glob.glob(os.path.join(".", '*.txt')):
      with open(input_file, 'r') as filereader:
-        for row in filereader:
+         print("====")
+         for row in filereader:
             print("{}".format(row.strip()))
